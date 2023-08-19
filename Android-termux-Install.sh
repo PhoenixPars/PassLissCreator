@@ -10,20 +10,20 @@ echo "
 "
 read -p " Do you allow us to update the system? [y/n] ": AcsseccSysUpdate
 
-if [[ "${AcsseccSysUpdate}" == "y"]]
+if [ "${AcsseccSysUpdate}" == "y"]
 then
 apt-get update
 apt-get upgrade
 read -p " Do you allow us to update or install python? [y/n] ": AcsseccPyInnstall
-elif [[ "${AcsseccSysUpdate}" == "n"]]
+elif [ "${AcsseccSysUpdate}" == "n"]
 then
 read -p " Do you allow us to update or install python? [y/n] ": AcsseccPyInnstall
-elif [[ "${AcsseccSysUpdate}" == "Y"]]
+elif [ "${AcsseccSysUpdate}" == "Y"]
 then
 apt-get update
 apt-get upgrade
 read -p " Do you allow us to update or install python? [y/n] ": AcsseccPyInnstall
-elif [[ "${AcsseccSysUpdate}" == "N"]]
+elif [ "${AcsseccSysUpdate}" == "N"]
 then 
 read -p " Do you allow us to update or install python? [y/n] ": AcsseccPyInnstall
 else 
