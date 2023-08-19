@@ -3,5 +3,5 @@
 
 # install in Android termux 
 ```
-bash <(https://raw.githubusercontent.com/PhoenixPars/PassLissCreator/master/Android-termux-Install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/PhoenixPars/PassLissCreator/master/Android-termux-Install.sh)
 ```
