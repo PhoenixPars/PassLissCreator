@@ -8,7 +8,7 @@ echo "
 |______________________________________|
 "
 echo "/n"
-read -p " Do you allow us to update the system? [y/n] ": AcsseccSysUpdate
+read -p " Do you allow us to update the system? [y/n] " AcsseccSysUpdate
 
 if [[ "${AcsseccSysUpdate}" == "y"]]; then
 apt-get update
