@@ -1,3 +1,4 @@
+clear
 echo "
  ______________________________________
 | pass Liss Creator                    |
