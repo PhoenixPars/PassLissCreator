@@ -19,4 +19,5 @@ pkg install git
 apt install git 
 read -p " Do you allow us update or install ListCrator ? [y/n] ": jdjdjdjdjd
 git clone https://github.com/PhoenixPars/PassLissCreator
-read -p " 
+read -p " Do you allow us to receive input to get tool statistics? [y/n] ":jdjdjejejdjdhdjei
+
