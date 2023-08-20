@@ -18,3 +18,5 @@ read -p " Do you allow us update or install Git-Packe ? [y/n] ": Jsjsjdjdjdjdjjd
 pkg install git 
 apt install git 
 read -p " Do you allow us update or install ListCrator ? [y/n] ": jdjdjdjdjd
+git clone https://github.com/PhoenixPars/PassLissCreator
+read -p " 
