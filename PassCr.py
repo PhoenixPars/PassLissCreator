@@ -14,5 +14,6 @@ print("| 5 . buy VIP Password list                             |")
 print("| 6 . show Creator informatio                           |")
 print("| 7 . exit                                              |")
 print("|-------------------------------------------------------|")
+user1input = input("Choose a Number [1~7] : ")
 
 
