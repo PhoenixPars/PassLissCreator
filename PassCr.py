@@ -25,7 +25,11 @@ user1input = input(f"${colr_green}Choose a Number [1~7] : ")
 
 if (user1input == 1):
   # Create Password List with Numbers
-  passLis1 = input("Passwords should be multi-digit : ")
+  try:
+    passLis1 = int(input("Passwords should be multi-digit : "))
+  except:
+    print("please enter integer characters")
+    user1input = 1
 elif (user1input == 2):
   # Create Password List with Word
 elif (user1input == 3):
