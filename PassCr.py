@@ -24,19 +24,21 @@ print("|-------------------------------------------------------|")
 user1input = input(f"${colr_green}Choose a Number [1~7] : ")
 
 if (user1input == 1):
-
+  # Create Password List with Numbers
 elif (user1input == 2):
-
+  # Create Password List with Word
 elif (user1input == 3):
-
+  # Create Password List with information
 elif (user1input == 4):
-
+  # Create Password List by combining modes 1, 2 and 3
 elif (user1input == 5):
-
+  # buy passList
 elif (user1input == 6):
-
+  # Show Creator 
+  print("PhoenixPars : t.me/PhoenixPars")
+  user1input = input(f"${colr_green}Choose a Number [1~7] : ")
 elif (user1input == 7):
-
+  exit();
 else :
   
 
