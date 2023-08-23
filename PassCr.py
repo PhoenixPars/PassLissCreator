@@ -32,12 +32,32 @@ if (user1input == 1):
     user1input = 1
 elif (user1input == 2):
   # Create Password List with Word
+  try:
+    passLis2 = int(input("Passwords should be multi-digit : "))
+  except:
+    print("please enter integer characters")
+    user1input = 2
 elif (user1input == 3):
   # Create Password List with information
+  try:
+    passLis3 = int(input("Passwords should be multi-digit : "))
+  except:
+    print("please enter integer characters")
+    user1input = 3
 elif (user1input == 4):
   # Create Password List by combining modes 1, 2 and 3
+  try:
+    passLis4 = int(input("Passwords should be multi-digit : "))
+  except:
+    print("please enter integer characters")
+    user1input = 4
 elif (user1input == 5):
   # buy passList
+  try:
+    passLis5 = int(input("Passwords should be multi-digit : "))
+  except:
+    print("please enter integer characters")
+    user1input = 5
 elif (user1input == 6):
   # Show Creator 
   print("PhoenixPars : t.me/PhoenixPars")
