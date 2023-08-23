@@ -25,6 +25,7 @@ user1input = input(f"${colr_green}Choose a Number [1~7] : ")
 
 if (user1input == 1):
   # Create Password List with Numbers
+  passLis1 = input("Passwords should be multi-digit : ")
 elif (user1input == 2):
   # Create Password List with Word
 elif (user1input == 3):
@@ -41,5 +42,9 @@ elif (user1input == 7):
   exit();
 else :
   
+# --- 
+# Create Password List with Numbers
+if (type(409) == type(passLis1)): # check input type 
 
-
+else:
+  print("")
