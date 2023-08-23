@@ -65,7 +65,8 @@ elif (user1input == 6):
 elif (user1input == 7):
   exit();
 else :
-  
+  print("hi")
+
 # --- 
 # Create Password List with Numbers
 if (type(409) == type(passLis1)): # check input type 
