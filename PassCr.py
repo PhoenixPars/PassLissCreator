@@ -21,7 +21,7 @@ print("| 5 . buy VIP Password list                             |")
 print("| 6 . show Creator informatio                           |")
 print("| 7 . exit                                              |")
 print("|-------------------------------------------------------|")
-user1input = input(f"${colr_green}Choose a Number [1~7] : ")
+user1input = int(input(f"${colr_green}Choose a Number [1~7] : "))
 
 if (user1input == 1):
   # Create Password List with Numbers
