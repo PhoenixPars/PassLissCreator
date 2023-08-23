@@ -69,6 +69,6 @@ else :
 # --- 
 # Create Password List with Numbers
 if (type(409) == type(passLis1)): # check input type 
-
+  priny("ok")
 else:
   print("")
