@@ -26,7 +26,7 @@ user1input = int(input(f"${colr_green}Choose a Number [1~7] : "))
 if (user1input == 1):
   # Create Password List with Numbers
   try:
-    passLis1 = int(input("Passwords should be multi-digit : "))
+    passlis1a = int(input("Passwords should be multi-digit : "))
   except:
     print("please enter integer characters")
     user1input = 1
@@ -69,7 +69,7 @@ else :
 
 # --- 
 # Create Password List with Numbers
-if (type(409) == type(passLis1)): # check input type 
+if (type(409) == type(passlis1a)): # check input type 
   priny("ok")
 else:
   print("")
